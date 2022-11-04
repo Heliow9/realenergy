@@ -1,5 +1,4 @@
-
-.information{
+.information {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -8,34 +7,37 @@
     color: white;
     height: 32px;
 }
+
 .information i {
     margin-right: 8px;
 }
-.contactFill{
+
+.contactFill {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 10px;
 }
-.SocialIcons{
+
+.SocialIcons {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 33px;
 }
 
-.SocialIcons i{
+.SocialIcons i {
     margin-left: 8px;
 
 }
 
-.informationContact{
+.informationContact {
     display: flex;
     justify-content: center;
 
 }
 
-.aboutUs{
+.aboutUs {
     width: 100%;
     height: 450px;
     display: flex;
@@ -45,32 +47,46 @@
     padding: 25px;
 }
 
-.informationUs{
+.informationUs {
     width: 600px;
     height: 100%;
+    margin-top: 80px;
+
 }
 
-.informationImages{
-    width: 350px;
+.informationImages {
+    justify-content: center;
+    align-items: center;
+}
+
+.informationImages img{
+    width: 480px;
+    height: 360px;
+    border-radius: 4px;
+}
+
+.firstImage{
+    width: 300px !important;
+    margin-right: 12px;
+    margin-top: 68px;
 }
 
 
 @media screen and (max-width: 978px) {
-   .information{
-   display: none;
-   }
+    .information {
+        display: none;
+    }
 
 }
 
 
 
 @media screen and (min-width: 767px) {
- 
-    .Carousel{
-     width: 100%;
-     height: 700px;
-     margin-top: 1px;
-     
- }
- }
 
+    .Carousel {
+        width: 100%;
+        height: 700px;
+        margin-top: 1px;
+
+    }
+}

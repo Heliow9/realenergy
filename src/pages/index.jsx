@@ -7,6 +7,9 @@ import Carousel from 'react-bootstrap/Carousel';
 import { MdLocationPin } from 'react-icons/md'
 import { BsInstagram, BsFacebook, BsFillTelephoneFill, BsWhatsapp } from 'react-icons/bs'
 import { AiFillMail } from 'react-icons/ai'
+import informationImage from '../../public/assets/insta4.jpg'
+import informationImage2 from '../../public/assets/insta5.jpg'
+import Image from 'next/image'
 
 export default function Home() {
   const [items, setItens] = useState([
@@ -114,12 +117,16 @@ export default function Home() {
         <section>
           <div className={styles.aboutUs}>
             <div className={styles.informationUs}>
-              <h3>Quem Somos</h3>
+              <h3>Somos A</h3>
+              <h1>RealEnergy</h1>
               <article>
-                A RealEnergy é uma organização que foi constituída no ano de 1992 tendo como atividade principal a representação de materiais elétricos. Com o decorrer dos anos, iniciou as atividades de engenharia elétrica, participando de programas de eletrificação rural e posteriormente entrando em linhas de transmissão e subestações de energia até 500kV, além de obras de elétrica, mecânica e civil. Atualmente especializou-se em gestão de parques de iluminação pública, detendo tecnologias de ponta com lâmpadas a LED desenvolvidas na região, assim como um sistema de gestão de parques de iluminação pública. Detém em seu quadro técnico profissionais de diversas áreas da engenharia, com especialização em mecânica, industrial, química, elétrica e eletrônica, automação, light design, agronomia, arqueologia, arquitetura, segurança do trabalho e civil, possibilitando ao cliente um mix de engenheiros numa única empresa.
+                A <b>RealEnergy</b> é uma organização que foi constituída no ano de 1992 tendo como atividade principal a representação de materiais elétricos. Com o decorrer dos anos, iniciou as atividades de engenharia elétrica, participando de programas de eletrificação rural e posteriormente entrando em linhas de transmissão e subestações de energia até 500kV, além de obras de elétrica, mecânica e civil. Atualmente especializou-se em gestão de parques de iluminação pública, detendo tecnologias de ponta com lâmpadas a LED desenvolvidas na região, assim como um sistema de gestão de parques de iluminação pública. Detém em seu quadro técnico profissionais de diversas áreas da engenharia, com especialização em mecânica, industrial, química, elétrica e eletrônica, automação, light design, agronomia, arqueologia, arquitetura, segurança do trabalho e civil, possibilitando ao cliente um mix de engenheiros numa única empresa.
               </article>
             </div>
-            <div className={styles.informationImages}>Images</div>
+            <div className={styles.informationImages}>
+              <Image src={informationImage} className={styles.firstImage} />
+              <Image src={informationImage2} className={styles.secondImage}  />
+            </div>
           </div>
         </section>
 
