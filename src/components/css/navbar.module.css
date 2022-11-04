@@ -1,0 +1,42 @@
+
+.homeBar {
+    width: 100%;
+    background-color: #D4F5F5;
+
+}
+
+
+.navLinkActive {
+    color: #3432A0;
+    font-weight: 400;
+    width: auto;
+    margin: 3px;
+    background-color: white;
+    height: 60px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+
+}
+
+.navLink {
+    color: #3432A0;
+    font-weight: 400;
+    width: auto;
+    margin: 3px;
+    height: 60px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+@media screen and (min-width: 768px) {
+    .brand {
+        margin-right: 790px;
+        margin-left: 40px;
+    }
+}

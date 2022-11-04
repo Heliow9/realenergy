@@ -1,0 +1,76 @@
+
+.information{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3432A0;
+    color: white;
+    height: 32px;
+}
+.information i {
+    margin-right: 8px;
+}
+.contactFill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.SocialIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 33px;
+}
+
+.SocialIcons i{
+    margin-left: 8px;
+
+}
+
+.informationContact{
+    display: flex;
+    justify-content: center;
+
+}
+
+.aboutUs{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 4px;
+    padding: 25px;
+}
+
+.informationUs{
+    width: 600px;
+    height: 100%;
+}
+
+.informationImages{
+    width: 350px;
+}
+
+
+@media screen and (max-width: 978px) {
+   .information{
+   display: none;
+   }
+
+}
+
+
+
+@media screen and (min-width: 767px) {
+ 
+    .Carousel{
+     width: 100%;
+     height: 700px;
+     margin-top: 1px;
+     
+ }
+ }
+
